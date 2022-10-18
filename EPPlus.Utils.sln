@@ -1,16 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPPlus.Utils", "EPPlus.Utils\EPPlus.Utils.csproj", "{C88516A4-0943-44BD-9B9B-7E3BAC87DF6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.Utils", "EPPlus.Utils\EPPlus.Utils.csproj", "{C88516A4-0943-44BD-9B9B-7E3BAC87DF6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E17CBFC7-2F63-4057-B2AF-39EB0556C090}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{5C987EFB-4287-4785-A59D-EC086FDB3ACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,12 +20,11 @@ Global
 		{C88516A4-0943-44BD-9B9B-7E3BAC87DF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88516A4-0943-44BD-9B9B-7E3BAC87DF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88516A4-0943-44BD-9B9B-7E3BAC87DF6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C987EFB-4287-4785-A59D-EC086FDB3ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C987EFB-4287-4785-A59D-EC086FDB3ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C987EFB-4287-4785-A59D-EC086FDB3ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C987EFB-4287-4785-A59D-EC086FDB3ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E27A8D8-C333-4861-A495-DADB78050F90}
 	EndGlobalSection
 EndGlobal
