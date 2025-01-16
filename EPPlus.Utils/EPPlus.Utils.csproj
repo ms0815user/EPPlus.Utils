@@ -2,6 +2,7 @@
   <PropertyGroup>
     <ProjectGuid>{C88516A4-0943-44BD-9B9B-7E3BAC87DF6B}</ProjectGuid>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
     <AssemblyTitle>EPPlus.Utils</AssemblyTitle>
     <Product>EPPlus.Utils</Product>
     <Description>
@@ -27,6 +28,6 @@
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+    <PackageReference Include="EPPlus" Version="[4.5.3.3]" />
   </ItemGroup>
 </Project>
